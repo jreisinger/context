@@ -1,5 +1,10 @@
-// context demonstrates how to terminate multiple goroutines. It's based on the
-// ch. 8 of "Intermediate Go Programming" video course by John Graham-Cumming.
+/*
+Context demonstrates how to terminate multiple goroutines. Context idea is based
+on closing a channel. It prevents closing a channel twice.
+
+Based on the ch. 8 of "Intermediate Go Programming" video course by John
+Graham-Cumming.
+*/
 package main
 
 import (
